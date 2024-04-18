@@ -1,0 +1,415 @@
+@font-face {
+    font-family: 'Alright Sans';
+
+    src: url('assets/font/fira/woff/FiraSans-Regular.woff') format('woff'),
+
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Alright Sans';
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 10px 50px;
+    height: 100px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.logo a {
+    background: linear-gradient(90deg, rgba(246, 138, 30, 1) 0%, rgba(167, 8, 38, 1) 35%);
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+
+.logo a:hover {
+    background: linear-gradient(90deg, rgba(246, 138, 30, 1) 0%, rgba(167, 8, 38, 1) 35%);
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+.submitbutn{
+    background: linear-gradient(90deg, rgba(246, 138, 30, 1) 0%, rgba(167, 8, 38, 1) 55%);
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 30px;
+    color: #fff;
+}
+.form-select {
+    text-transform: capitalize;
+}
+/* ===================== Home Page ================= */
+
+
+.sectionOne {
+    /* width: 100%;
+    max-width: 1280px; */
+    height: calc(100vh - 220px);
+    padding: 0 50px;
+
+}
+
+.bgImage {
+    background: url(../assets/images/Visual_Identity.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.loginbutton{
+    color: #fff;
+    background: rgb(244, 130, 31);
+    background: linear-gradient(90deg, rgba(244, 130, 31, 1) 0%, rgba(194, 15, 37, 1) 100%);
+    padding: 12px 90px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 0px auto;
+}
+.leg{
+    font-size: 60px;
+    font-family: "Noto Sans", sans-serif;
+    padding-bottom: 3rem;
+}
+.loginbg {
+    background-color: #d9d9d9c4;
+    padding: 40px;
+    border-radius: 40px;
+    height: calc(100vh - 220px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+label {
+    display: inline-block;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+}
+.sectionOne .formBox h2 {
+    font-size: 51px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.sectionOne .formBox form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sectionOne form label {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.sectionOne form input {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    /* width: 100%; */
+    background-color: #ffffff;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+
+.sectionOne form input[type="submit"] {
+    background: linear-gradient(90deg, rgba(246, 138, 30, 1) 0%, rgba(167, 8, 38, 1) 35%);
+    color: #fff;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+
+
+/* ===================== Home Page end ================= */
+
+
+/* ===================== Caalculater Page ================= */
+
+.sectionCalculater {
+    height: 100vh;
+    width: 100%;
+    background: url('/assets/images/Visual_Identity.png'), linear-gradient(90deg, rgba(246, 138, 30, .7) 0%, rgba(167, 8, 38, .7) 35%);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.formContent h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+}
+
+.formInputBox {
+    /* background-color: red; */
+    /* height: 400px; */
+    max-width: 800px;
+    padding: 20px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+/* .formInputBox form {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+} */
+
+.formInputBox form h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+}
+
+.formInputBox .totleBox {
+    max-width: 400px;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.formInputBox .totleBox h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* .formInputBox form .leftBox,
+.formInputBox form .rightBox {
+    width: 45%;
+}
+
+.formInputBox form .bottomBox {
+    width: 50%;
+} */
+
+/* ===================== Caalculater Page end ================= */
+
+
+/* ===================== Output Page ================= */
+
+.sectioOutput {
+    height: 100vh;
+    width: 100%;
+    background: url('/assets/images/Visual_Identity.png'), linear-gradient(90deg, rgba(246, 138, 30, .7) 0%, rgba(167, 8, 38, .7) 35%);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.outContent h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+}
+
+.outputBox {
+    padding: 20px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.outputBox .totleBox {
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+.totleBox h5{
+    margin: 0;
+}
+
+.outputBox .totleBox h2 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.outputBox .richBox h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.outputBox img {
+    max-width: 400px;
+    width: 100%;
+}
+
+.outputBox .richBox h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    text-decoration: underline;
+    line-height: 1.5;
+}
+
+
+.outputBox ul li {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* ===================== Output Page end ================= */
+
+
+
+/* ===================== Mobile Reponsive ================= */
+
+@media only screen and (max-width: 600px) {
+
+    /* ==========  Home page ============  */
+    .logo img {
+        width: 110px;
+    }
+
+    header {
+        padding: 10px 20px;
+        height: 80px;
+    }
+
+    .sectionOne {
+        height: 100%;
+        padding: 50px 20px;
+    }
+
+    .sectionOne .formBox {
+        width: 100%;
+        background-color: #D9D9D9;
+        padding: 50px 20px;
+        border-radius: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionOne form input {
+        margin-bottom: 10px;
+    }
+
+    .sectionOne .formBox h2 {
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    /* ==========  Home page end ============  */
+
+    /* ===================== Calculater Page  ================= */
+    .sectionCalculater {
+        height: 100%;
+    }
+
+    .formContent h2 {
+        font-size: 32px;
+        margin-top: 25px;
+    }
+
+    .formInputBox {
+        margin: 15px auto;
+    }
+
+    .formInputBox .rightBox {
+        margin-top: 30px;
+    }
+
+    .formInputBox form h3 {
+        font-size: 22px;
+    }
+
+    .totleBox h2 {
+        margin-top: 0px;
+    }
+
+    /* ===================== Caalculater Page end ================= */
+
+
+    /* ===================== Output Page  ================= */
+    .sectioOutput {
+        height: 100%;
+    }
+
+    .outContent h2 {
+        font-size: 32px;
+        margin-top: 25px;
+    }
+
+    .outputBox {
+        margin: 15px auto;
+    }
+
+    .outputBox .totleBox {
+        margin: 25px auto;
+    }
+
+    .outputBox .richBox h3 {
+        font-size: 28px;
+    }
+
+    .outputBox .richBox h2 {
+        font-size: 28px;
+    }
+
+    .outputBox .totleBox h2 {
+        margin-top: 0;
+    }
+
+    .outputBox img {
+        max-width: 280px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+
+    /* ===================== Output Page end ================= */
+
+}
+
+/* ===================== Mobile Reponsive end ================= */
